@@ -1,0 +1,29 @@
+$headings-font-family: Russo One;
+
+
+$primary: #22A1ED ;
+$dark: #04040C;
+$headings-color: #284876 ;
+$card-bg: #FCFCFC;
+$cyan:    #1d5ca5;
+
+//- animation button echec -//
+
+.echec {
+    animation: echec 0.3s ease-in-out;
+}
+
+@keyframes echec {
+    0% {
+        transform: translate(0px);
+    }
+    33% {
+        transform: translate(5px);
+    }
+    66% {
+        transform: translate(-5px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
